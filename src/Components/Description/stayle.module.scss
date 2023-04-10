@@ -1,0 +1,54 @@
+.des {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 200px;
+
+  &__cards {
+    padding-top: 20px;
+    border-top: 2px solid gray;
+  }
+
+  &__card {
+    margin-bottom: 20px;
+    p {
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      font-size: 17px;
+      line-height: 25px;
+    }
+  }
+
+  &__center {
+    background: #111131;
+    border-radius: 8px;
+    display: grid;
+    place-items: center;
+    padding: 50px;
+
+    img {
+      margin-bottom: 40px;
+    }
+
+    h1 {
+      font-size: 23px;
+      line-height: 36px;
+      color: white;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    button {
+      margin-bottom: 15px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .des {
+    flex-direction: column;
+  }
+}

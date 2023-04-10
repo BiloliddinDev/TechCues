@@ -1,0 +1,47 @@
+.showcase {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+
+  &__wrapper {
+    border-top: 1px solid #868297;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  &__box {
+    padding: 20px;
+  }
+
+  &__card {
+    box-shadow: 0px 24px 24px 0px #34349352;
+    border: 1px solid #ebeaf2;
+
+    width: 370px;
+
+    h2 {
+      margin: 30px 0;
+    }
+
+    p {
+      margin-bottom: 8px;
+    }
+
+    h3 {
+      font-size: 19px;
+      line-height: 30px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .showcase {
+    &__wrapper {
+      flex-wrap: wrap;
+    }
+  }
+}

@@ -1,4 +1,8 @@
 .top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   padding: 8px 0;
   background: #111131;
@@ -14,5 +18,11 @@
     text-align: center;
     color: #ababfa;
     text-decoration: none;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .top {
+    flex-direction: column;
   }
 }

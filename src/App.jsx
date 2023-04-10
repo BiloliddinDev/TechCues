@@ -1,3 +1,4 @@
+import Bootom from "./Components/Bottom";
 import Button from "./Components/Button";
 import Description from "./Components/Description";
 import Elbook from "./Components/Ebook";
@@ -20,6 +21,7 @@ function App() {
       <Information />
       <Description />
       <Footer />
+      <Bootom />
     </div>
   );
 }

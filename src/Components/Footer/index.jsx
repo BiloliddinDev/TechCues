@@ -9,8 +9,8 @@ const Footer = () => {
   return (
     <div className={c.footer}>
       <div className="container">
-        <div>
-          <div>
+        <div className={c.footer__wrapper}>
+          <div className={c.footer__left}>
             <img src={Image} alt="" />
             <ul>
               <li>
@@ -35,7 +35,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div>
+          <div className={c.footer__center}>
             <ul>
               <h3>Categories</h3>
               <li>
@@ -61,10 +61,10 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div>
+          <div className={c.footer__right}>
             <Heading heading={"Quality tech news In your inbox. Every week."} />
-            <Button bg bady={"Email address"} />
-            <Button bady={"SUBSCRIBE"} />
+            <Button full bg bady={"Email address"} /> <br />
+            <Button full bady={"SUBSCRIBE"} />
           </div>
         </div>
       </div>

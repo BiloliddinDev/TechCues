@@ -1,0 +1,26 @@
+.bottom {
+  background-color: #ababfa;
+  padding: 10px 0;
+
+  &__wrapper {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+
+    h3 {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 29px;
+      color: #1b1b4d;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .bottom {
+    &__wrapper {
+      justify-content: center;
+    }
+  }
+}
